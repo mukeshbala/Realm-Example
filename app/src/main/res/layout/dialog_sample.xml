@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/match_to_wrap"
+        android:textSize="20dp"
+        android:text="Delete...?"
+        android:gravity="center"
+        android:textColor="@android:color/black"/>
+    <LinearLayout
+        style="@style/match_to_wrap"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/no"
+            style="@style/width_weight"
+            android:background="@color/colorPrimary"
+            android:text="No"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/yes"
+            style="@style/width_weight"
+            android:background="@color/colorPrimary"
+            android:text="yes"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

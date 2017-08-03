@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<EditText-->
+        <!--android:id="@+id/ide"-->
+        <!--style="@style/match_to_wrap"-->
+        <!--android:background="@null"-->
+        <!--android:hint="id"-->
+        <!--android:padding="10dp" />-->
+    <EditText
+        android:id="@+id/txtname"
+        style="@style/match_to_wrap"
+        android:background="@null"
+        android:hint="Name"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/txtmobile"
+        style="@style/match_to_wrap"
+        android:background="@null"
+        android:hint="Mobile"
+        android:inputType="phone"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/txtaddress"
+        style="@style/match_to_wrap"
+        android:background="@null"
+        android:hint="address"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/txtage"
+        style="@style/match_to_wrap"
+        android:background="@null"
+        android:hint="age"
+        android:inputType="number"
+        android:padding="10dp" />
+
+    <LinearLayout
+        style="@style/match_to_wrap"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/txtcancel"
+            style="@style/width_weight"
+            android:background="@color/colorPrimary"
+            android:text="Cancel"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/txtsave"
+            style="@style/width_weight"
+            android:background="@color/colorPrimary"
+            android:text="Add"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>
